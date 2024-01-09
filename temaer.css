@@ -443,13 +443,13 @@ footer {
   #stor_computer2 {
     width: 250px;
     margin-top: 200px;
-    margin-left: -320px;
+    margin-left: -300px;
   }
 
   #stor_computer3 {
     width: 250px;
     margin-top: 200px;
-    margin-left: -200px;
+    margin-left: -230px;
   }
 
   #stor_computer4 {
@@ -488,18 +488,18 @@ footer {
   }
 
   #tekst_tema4 {
-    margin-top: 300px;
+    margin-top: 280px;
     margin-left: 20px;
     margin-right: 10px;
   }
 
   #tekst_tema5_1 {
-    margin-top: 300px;
+    margin-top: 280px;
     margin-left: 20px;
     margin-right: 10px;
   }
   #tekst_tema5_2 {
-    margin-top: 300px;
+    margin-top: 280px;
     margin-left: 20px;
     margin-right: 10px;
   }
@@ -514,7 +514,6 @@ footer {
   }
 
   #link_tema3 {
-    margin-top: 0px;
     margin-left: 40px;
     margin-bottom: 20px;
   }
