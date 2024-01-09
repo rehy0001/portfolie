@@ -239,7 +239,7 @@ p {
 #overskrift_tema3_2 {
   color: #d7d8d0;
   font-size: 2rem;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-left: -990px;
   margin-bottom: 20px;
 }
@@ -276,7 +276,7 @@ p {
 
 #stor_computer3 {
   margin-top: 150px;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 #plante_03 {
@@ -448,8 +448,8 @@ footer {
 
   #stor_computer3 {
     width: 250px;
-    margin-top: 150px;
-    margin-left: -450px;
+    margin-top: 200px;
+    margin-left: -200px;
   }
 
   #stor_computer4 {
@@ -478,7 +478,7 @@ footer {
   #tekst_tema3_1 {
     margin-top: 300px;
     margin-left: 20px;
-    margin-right: 170px;
+    margin-right: -80px;
   }
 
   #tekst_tema3_2 {
