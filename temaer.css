@@ -48,7 +48,7 @@ menu a:hover {
   color: #d5ceb5;
 }
 
-/******************** burgermenu *********************/
+/******************** burgermenu - har kopieret dette fra undervisningen *********************/
 @media screen and (max-width: 800px) {
   .burger {
     width: 30px;
