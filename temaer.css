@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/******************** header ************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #d5ceb5;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #1a090d;
+  font-family: "Bodoni Moda", serif;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+menu a:hover {
+  color: #d5ceb5;
+}
+
+/******************** burgermenu *********************/
+@media screen and (max-width: 800px) {
+  .burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+    background-color: black;
+  }
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    background-color: #e8e7dd;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+  nav.active .menu a {
+    font-size: 24px;
+  }
+}
+
+/************************ Logo ***********************/
+#logo {
+  width: 70px;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/********************** main ***********************/
+h1 {
+  color: black;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.brodkrummesti {
+  font-family: "Bodoni Moda", serif;
+  color: black;
+  font-size: 0.8rem;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.brodkrummesti a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.2rem;
+}
+
+#link_til,
+#link_til_widex {
+  margin-left: 40px;
+}
+
+#forrige_tema {
+  border: 1px solid #000;
+  background-color: #e8e7dd;
+  text-decoration: none;
+  color: black;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 3px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 1050px;
+}
+
+#forrige_tema5 {
+  border: 1px solid #000;
+  background-color: #e8e7dd;
+  text-decoration: none;
+  color: black;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 3px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 1050px;
+  margin-bottom: 50px;
+}
+
+#næste_tema {
+  border: 1px solid #000;
+  background-color: #e8e7dd;
+  text-decoration: none;
+  color: black;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 3px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-left: 0px;
+}
+
+#næste_tema2 {
+  border: 1px solid #000;
+  background-color: #e8e7dd;
+  text-decoration: none;
+  color: black;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 3px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 1200px;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+/****************** tema 2 *********************/
+
+#overskrift_tema2 {
+  color: #6f6855;
+  font-size: 2rem;
+  margin-left: -180px;
+  margin-bottom: 20px;
+}
+
+#tekst_tema2 {
+  color: black;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#link_tema2 {
+  color: #857e61;
+  margin-left: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#stor_computer2 {
+  margin-top: 150px;
+  margin-right: 80px;
+}
+
+/****************** tema 3 *********************/
+#overskrift_tema3_1 {
+  color: #d7d8d0;
+  font-size: 2rem;
+  margin-left: -480px;
+  margin-bottom: 20px;
+}
+
+#overskrift_tema3_2 {
+  color: #d7d8d0;
+  font-size: 2rem;
+  margin-top: 300px;
+  margin-left: -990px;
+  margin-bottom: 20px;
+}
+
+#tekst_tema3_1 {
+  color: black;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#tekst_tema3_2 {
+  color: black;
+  margin-left: 40px;
+  margin-right: 700px;
+}
+
+#link_til_præsentation {
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#link_tema3_præsentation {
+  color: #857e61;
+  margin-left: 40px;
+  margin-right: 500px;
+}
+
+#link_tema3 {
+  color: #857e61;
+  margin-left: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#stor_computer3 {
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+#plante_03 {
+  margin-left: 100px;
+  margin-bottom: -85px;
+}
+
+/****************** tema 4 *********************/
+#overskrift_tema4 {
+  color: #aba58d;
+  font-size: 2rem;
+  margin-left: -400px;
+  margin-bottom: 20px;
+}
+
+#tekst_tema4 {
+  color: black;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#link_tema4 {
+  color: #857e61;
+  margin-left: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#stor_computer4 {
+  margin-top: 150px;
+  margin-right: 80px;
+}
+
+#plante_04 {
+  margin-left: 1200px;
+  margin-bottom: -85px;
+}
+
+/****************** tema 5 *********************/
+#overskrift_tema5_1 {
+  color: #d5ceb5;
+  font-size: 2rem;
+  margin-left: -570px;
+  margin-bottom: 20px;
+}
+
+#overskrift_tema5_2 {
+  color: #d5ceb5;
+  font-size: 2rem;
+  margin-top: 5px;
+  margin-left: -420px;
+  margin-bottom: 20px;
+}
+
+#tekst_tema5_1 {
+  color: black;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#tekst_tema5_2 {
+  color: black;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#link_tema5_1 {
+  color: #857e61;
+  margin-left: 40px;
+  margin-right: 100px;
+  margin-bottom: -80px;
+}
+
+#link_tema5_2 {
+  color: #857e61;
+  margin-left: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#stor_computer5_1 {
+  margin-top: 150px;
+  margin-right: 80px;
+}
+
+#stor_computer5_2 {
+  margin-top: 120px;
+  margin-right: 80px;
+}
+
+#plante_05 {
+  margin-top: 20px;
+}
+
+/********************** footer ********************/
+footer {
+  background-color: #d5ceb5;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+/********************** mobil - har kodet til en iphone 12/13 + pro ***********************/
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  #næste_tema {
+    margin-top: 50px;
+  }
+  #næste_tema2 {
+    margin-left: 190px;
+    margin-top: 50px;
+  }
+  #forrige_tema {
+    margin-left: 20px;
+  }
+  #forrige_tema5 {
+    margin-left: 20px;
+  }
+
+  .brodkrummesti {
+    margin-left: 15px;
+  }
+
+  #overskrift_tema2 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #overskrift_tema3_1 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #overskrift_tema3_2 {
+    font-size: 1.7rem;
+    margin-top: 100px;
+    margin-left: 5px;
+    text-align: left;
+  }
+
+  #overskrift_tema4 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  #overskrift_tema5_1,
+  #overskrift_tema5_2 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  #stor_computer2 {
+    width: 250px;
+    margin-top: 200px;
+    margin-left: -320px;
+  }
+
+  #stor_computer3 {
+    width: 250px;
+    margin-top: 150px;
+    margin-left: -450px;
+  }
+
+  #stor_computer4 {
+    width: 250px;
+    margin-top: 180px;
+    margin-left: -240px;
+  }
+
+  #stor_computer5_1 {
+    width: 250px;
+    margin-top: 140px;
+    margin-left: -300px;
+  }
+  #stor_computer5_2 {
+    width: 250px;
+    margin-top: 180px;
+    margin-left: -250px;
+  }
+
+  #tekst_tema2 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 100px;
+  }
+
+  #tekst_tema3_1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 170px;
+  }
+
+  #tekst_tema3_2 {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  #tekst_tema4 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  #tekst_tema5_1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  #tekst_tema5_2 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  #link_til_præsentation {
+    margin-top: 20px;
+  }
+
+  #link_til,
+  #link_til_widex {
+    margin-top: 20px;
+  }
+
+  #link_tema3 {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  #link_tema2,
+  #link_tema4,
+  #link_tema5_1,
+  #link_tema5_2 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  #link_tema3_præsentation {
+    margin-left: 40px;
+  }
+
+  #plante_02 {
+    width: 150px;
+  }
+  #plante_03 {
+    width: 200px;
+    margin-left: -35px;
+  }
+  #plante_04 {
+    width: 150px;
+    margin-left: -50px;
+  }
+  #plante_05 {
+    width: 280px;
+  }
+}

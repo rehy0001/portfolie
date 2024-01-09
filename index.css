@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/********************** header ************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #d5ceb5;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #1a090d;
+  font-family: "Bodoni Moda", serif;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+menu a:hover {
+  color: #d5ceb5;
+}
+
+/********************** burgermenu ********************/
+@media screen and (max-width: 800px) {
+  .burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+    background-color: black;
+  }
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    background-color: #e8e7dd;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+  nav.active .menu a {
+    font-size: 24px;
+  }
+}
+
+/************************ Logo **********************/
+#logo {
+  width: 70px;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/********************** main ***********************/
+body {
+  background: linear-gradient(to right, #aba58d 65%, #e8e7dd 45%);
+}
+
+h1 {
+  color: #1a090d;
+  font-family: "Bodoni Moda", serif;
+  font-size: 8rem;
+  margin-top: -50px;
+  margin-left: 350px;
+}
+
+h2 {
+  color: #6f6855;
+  font-family: "Abril Fatface", serif;
+  font-size: 1rem;
+  margin-left: 100px;
+  margin-top: -270px;
+  margin-bottom: 0px;
+}
+
+#plante1 {
+  margin-top: -330px;
+  margin-left: 1100px;
+}
+
+#plante2 {
+  margin-bottom: -50px;
+  margin-left: 500px;
+}
+
+#plante3 {
+  margin-top: -80px;
+}
+
+/******************** ipad og tablet *********************
+@media screen and (min-width: 768px) and (max-width 1023) {
+  body {
+    background: #aba58d;
+  }
+  h1 {
+    font-size: 6rem;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+}*/
+
+/******************** mobil - har kodet til en iphone 12/13 + pro *********************/
+@media screen and (max-width: 800px) {
+  body {
+    background: #aba58d;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  h2 {
+    margin-left: 20px;
+  }
+  #plante1 {
+    width: 280px;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  #plante2 {
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 200px;
+  }
+  #plante3 {
+    width: 200px;
+  }
+}

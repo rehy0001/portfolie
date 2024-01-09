@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/******************** header ************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #d5ceb5;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #1a090d;
+  font-family: "Bodoni Moda", serif;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+menu a:hover {
+  color: #d5ceb5;
+}
+
+/******************* burgermenu ********************/
+@media screen and (max-width: 800px) {
+  .burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+    background-color: black;
+  }
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    background-color: #e8e7dd;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+  nav.active .menu a {
+    font-size: 24px;
+  }
+}
+
+/************************** Logo *******************/
+#logo {
+  width: 70px;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/********************** main ***********************/
+h1 {
+  color: black;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #6f6855;
+  font-family: "Abril Fatface", serif;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #6f6855;
+  font-family: "Abril Fatface", serif;
+  font-size: 1.8rem;
+  margin-top: 30px;
+  text-align: center;
+}
+
+p {
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.2rem;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#om_mig_tekst1 {
+  margin-top: 150px;
+  margin-left: 350px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  max-width: 65ch;
+}
+#om_mig_tekst2 {
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 45px;
+  max-width: 65ch;
+}
+#om_mig_tekst3 {
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 45px;
+  max-width: 65ch;
+}
+
+#blade {
+  margin-top: -200px;
+  margin-left: 120px;
+}
+
+#selfie {
+  margin-top: 200px;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+}
+
+/********************** kompetencer *******************/
+#kompetencer {
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-bottom: 80px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  background-color: #d7d8d0;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.kompetencer_overskrifter {
+  margin-left: 90px;
+}
+
+.kompetencer_tekst {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+/******************** programmer ********************/
+.grid_1_1_1 {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+#figma {
+  margin-top: 60px;
+  margin-left: 200px;
+}
+#figma_overskrift {
+  margin-top: 25px;
+  margin-left: 210px;
+  font-family: "Bodoni Moda", serif;
+  color: #1a090d;
+}
+#figma_tekst {
+  margin-top: 30px;
+  margin-left: 110px;
+  margin-right: 300px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#creative_cloud {
+  width: 100px;
+  margin-top: 60px;
+  margin-left: -20px;
+}
+#creative_cloud_overskrift {
+  margin-top: 30px;
+  margin-left: -75px;
+  font-family: "Bodoni Moda", serif;
+  color: #1a090d;
+}
+#creative_cloud_tekst {
+  margin-top: 30px;
+  margin-left: -120px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#vsc {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+#vsc_overskrift {
+  margin-top: 25px;
+  margin-left: 95px;
+  font-family: "Bodoni Moda", serif;
+  color: #1a090d;
+}
+#vsc_tekst {
+  margin-top: 30px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+/********************** historik ********************/
+#august2023 {
+  margin-top: 80px;
+  margin-left: 670px;
+}
+#multimedie_tekst {
+  margin-left: 0px;
+  text-align: center;
+}
+
+#august2022 {
+  margin-top: 100px;
+  margin-left: 670px;
+}
+#comfy_tekst {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+#februar2022 {
+  margin-top: 100px;
+  margin-left: 650px;
+}
+#socialraadgiver_tekst {
+  margin-left: 0px;
+  text-align: center;
+}
+
+#august2019 {
+  margin-top: 100px;
+  margin-left: 630px;
+}
+#pædagog_tekst {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+#august2016 {
+  margin-top: 100px;
+  margin-left: 650px;
+}
+#student_tekst {
+  margin-left: 240px;
+  margin-right: 50px;
+}
+
+#plante_ommig {
+  margin-left: 1000px;
+  margin-bottom: -300px;
+}
+
+/********************** footer ***********************/
+footer {
+  background-color: #d5ceb5;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  margin-top: 230px;
+  text-align: center;
+  padding: 20px;
+}
+
+/****************** mobil - har kodet til en iphone 12/13 + pro *********************/
+
+@media screen and (max-width: 800px) {
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #blade {
+    width: 100px;
+    margin-left: 280px;
+    margin-top: -60px;
+  }
+  #om_mig_tekst1 {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 150px;
+  }
+  #om_mig_tekst2 {
+    margin-left: 20px;
+    margin-right: 150px;
+  }
+  #om_mig_tekst3 {
+    margin-left: 20px;
+    margin-right: 150px;
+  }
+
+  #selfie {
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .kompetencer_overskrifter {
+    margin-left: 20px;
+  }
+
+  .grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #figma {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  #figma_overskrift {
+    margin-left: 160px;
+  }
+  #figma_tekst {
+    margin-left: 25px;
+    margin-right: 70px;
+  }
+
+  #creative_cloud {
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+  #creative_cloud_overskrift {
+    margin-left: 100px;
+  }
+  #creative_cloud_tekst {
+    margin-left: 25px;
+    margin-right: 70px;
+  }
+
+  #vsc {
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+  #vsc_overskrift {
+    margin-left: 145px;
+  }
+  #vsc_tekst {
+    margin-left: 25px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+  }
+
+  #august2023 {
+    margin-left: 120px;
+  }
+  #multimedie_tekst {
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: center;
+  }
+
+  #august2022 {
+    margin-left: 120px;
+  }
+  #comfy_tekst {
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: center;
+  }
+
+  #februar2022 {
+    margin-left: 100px;
+  }
+  #socialraadgiver_tekst {
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: center;
+  }
+
+  #august2019 {
+    margin-left: 70px;
+  }
+  #pædagog_tekst {
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+
+  #august2016 {
+    margin-left: 100px;
+  }
+  #student_tekst {
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: center;
+  }
+
+  #plante_ommig {
+    width: 130px;
+    margin-left: 280px;
+  }
+}
