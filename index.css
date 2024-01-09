@@ -144,18 +144,6 @@ h2 {
   margin-top: -80px;
 }
 
-/******************** ipad og tablet *********************
-@media screen and (min-width: 768px) and (max-width 1023) {
-  body {
-    background: #aba58d;
-  }
-  h1 {
-    font-size: 6rem;
-    margin-left: 20px;
-    margin-top: 15px;
-  }
-}*/
-
 /******************** mobil - har kodet til en iphone 12/13 + pro *********************/
 @media screen and (max-width: 800px) {
   body {
