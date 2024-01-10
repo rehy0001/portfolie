@@ -145,7 +145,7 @@ h2 {
 }
 
 /******************** mobil - har kodet til en iphone 12/13 + pro *********************/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   body {
     background: #aba58d;
   }

@@ -382,10 +382,20 @@ footer {
 }
 
 /********************** mobil - har kodet til en iphone 12/13 + pro ***********************/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+  body {
+  }
+
   h1 {
     font-size: 2.4rem;
   }
+
+  p {
+    font-size: 0.8rem;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+
   #næste_tema {
     margin-top: 50px;
   }
@@ -418,7 +428,7 @@ footer {
   }
 
   #overskrift_tema3_1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-top: 50px;
     margin-left: 10px;
     text-align: left;
@@ -432,21 +442,21 @@ footer {
   }
 
   #overskrift_tema4 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-top: 50px;
     margin-left: 10px;
     text-align: left;
   }
 
   #overskrift_tema5_1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-top: 50px;
     margin-left: 10px;
     text-align: left;
   }
 
   #overskrift_tema5_2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-top: 0px;
     margin-left: 10px;
     text-align: left;
@@ -531,7 +541,7 @@ footer {
   }
 
   #link_tema3 {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 20px;
   }
 
@@ -539,12 +549,8 @@ footer {
   #link_tema4,
   #link_tema5_1,
   #link_tema5_2 {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 20px;
-  }
-
-  #link_tema3_præsentation {
-    margin-left: 40px;
   }
 
   #plante_02 {

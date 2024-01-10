@@ -329,15 +329,21 @@ footer {
 
 /****************** mobil - har kodet til en iphone 12/13 + pro *********************/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.8rem;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr;
   }
   #blade {
-    width: 100px;
+    width: 90px;
     margin-left: 270px;
-    margin-top: -60px;
+    margin-top: -40px;
   }
   #om_mig_tekst1 {
     margin-top: 50px;
@@ -378,39 +384,39 @@ footer {
   }
 
   #figma {
-    margin-left: 150px;
+    margin-left: 140px;
     margin-top: 50px;
   }
   #figma_overskrift {
-    margin-left: 160px;
+    margin-left: 150px;
   }
   #figma_tekst {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 70px;
   }
 
   #creative_cloud {
-    margin-left: 150px;
+    margin-left: 140px;
     margin-top: 0px;
   }
   #creative_cloud_overskrift {
-    margin-left: 90px;
+    margin-left: 80px;
   }
   #creative_cloud_tekst {
-    margin-left: 5px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 90px;
   }
 
   #vsc {
-    margin-left: 150px;
+    margin-left: 140px;
     margin-top: 0px;
   }
   #vsc_overskrift {
-    margin-left: 145px;
+    margin-left: 135px;
   }
   #vsc_tekst {
-    margin-left: 5px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 90px;
     margin-bottom: 50px;
   }
 
