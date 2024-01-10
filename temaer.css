@@ -421,15 +421,16 @@ footer {
   #overskrift_tema2 {
     font-size: 1.8rem;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 5px;
     text-align: left;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
   }
 
   #overskrift_tema3_1 {
     font-size: 1.7rem;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 5px;
     text-align: left;
   }
 
@@ -443,22 +444,26 @@ footer {
   #overskrift_tema4 {
     font-size: 1.7rem;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 5px;
     text-align: left;
+    word-wrap: break-word;
+    overflow: hidden;
   }
 
   #overskrift_tema5_1 {
     font-size: 1.7rem;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 5px;
     text-align: left;
   }
 
   #overskrift_tema5_2 {
     font-size: 1.7rem;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 5px;
     text-align: left;
+    word-wrap: break-word;
+    overflow: hidden;
   }
 
   #stor_computer2 {
@@ -498,7 +503,7 @@ footer {
   #tekst_tema2 {
     margin-top: 30px;
     margin-left: 20px;
-    margin-right: 50px;
+    margin-right: 100px;
   }
 
   #tekst_tema3_1 {
@@ -516,7 +521,7 @@ footer {
   #tekst_tema4 {
     margin-top: 30px;
     margin-left: 20px;
-    margin-right: 50px;
+    margin-right: 100px;
   }
 
   #tekst_tema5_1 {
@@ -545,7 +550,14 @@ footer {
     margin-bottom: 20px;
   }
 
-  #link_tema2,
+  #link_tema2 {
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+  }
+
   #link_tema4,
   #link_tema5_1,
   #link_tema5_2 {
