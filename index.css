@@ -151,7 +151,7 @@ h2 {
   }
   h1 {
     font-size: 4rem;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 15px;
   }
   h2 {
@@ -159,8 +159,8 @@ h2 {
   }
   #plante1 {
     width: 280px;
-    margin-left: 200px;
-    margin-top: 20px;
+    margin-left: 175px;
+    margin-top: 0px;
   }
   #plante2 {
     width: 200px;

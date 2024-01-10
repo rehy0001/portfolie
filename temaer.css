@@ -390,18 +390,23 @@ footer {
     margin-top: 50px;
   }
   #næste_tema2 {
-    margin-left: 190px;
+    margin-left: 180px;
     margin-top: 50px;
   }
   #forrige_tema {
-    margin-left: 20px;
+    margin-left: 7px;
   }
   #forrige_tema5 {
-    margin-left: 20px;
+    margin-left: 7px;
   }
 
   .brodkrummesti {
     margin-left: 15px;
+  }
+
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   #overskrift_tema2 {
@@ -409,6 +414,7 @@ footer {
     margin-top: 50px;
     margin-left: 10px;
     text-align: left;
+    overflow-wrap: break-word;
   }
 
   #overskrift_tema3_1 {
@@ -420,7 +426,7 @@ footer {
 
   #overskrift_tema3_2 {
     font-size: 1.7rem;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 5px;
     text-align: left;
   }
@@ -428,80 +434,91 @@ footer {
   #overskrift_tema4 {
     font-size: 1.8rem;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: left;
   }
 
-  #overskrift_tema5_1,
-  #overskrift_tema5_2 {
+  #overskrift_tema5_1 {
     font-size: 1.8rem;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #overskrift_tema5_2 {
+    font-size: 1.8rem;
+    margin-top: 0px;
+    margin-left: 10px;
     text-align: left;
   }
 
   #stor_computer2 {
     width: 250px;
-    margin-top: 200px;
-    margin-left: -300px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
   }
 
   #stor_computer3 {
     width: 250px;
-    margin-top: 200px;
-    margin-left: -230px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
   }
 
   #stor_computer4 {
     width: 250px;
-    margin-top: 180px;
-    margin-left: -240px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
   }
 
   #stor_computer5_1 {
     width: 250px;
-    margin-top: 140px;
-    margin-left: -300px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
   }
   #stor_computer5_2 {
     width: 250px;
-    margin-top: 180px;
-    margin-left: -250px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
   }
 
   #tekst_tema2 {
-    margin-top: 300px;
+    margin-top: 30px;
     margin-left: 20px;
-    margin-right: 100px;
+    margin-right: 50px;
   }
 
   #tekst_tema3_1 {
-    margin-top: 300px;
+    margin-top: 30px;
     margin-left: 20px;
-    margin-right: -80px;
+    margin-right: 50px;
   }
 
   #tekst_tema3_2 {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 50px;
   }
 
   #tekst_tema4 {
-    margin-top: 280px;
+    margin-top: 30px;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 50px;
   }
 
   #tekst_tema5_1 {
-    margin-top: 280px;
+    margin-top: 30px;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 50px;
   }
   #tekst_tema5_2 {
-    margin-top: 280px;
+    margin-top: 30px;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 50px;
   }
 
   #link_til_præsentation {

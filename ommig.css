@@ -336,21 +336,21 @@ footer {
   }
   #blade {
     width: 100px;
-    margin-left: 280px;
+    margin-left: 270px;
     margin-top: -60px;
   }
   #om_mig_tekst1 {
     margin-top: 50px;
     margin-left: 20px;
-    margin-right: 150px;
+    margin-right: 120px;
   }
   #om_mig_tekst2 {
     margin-left: 20px;
-    margin-right: 150px;
+    margin-right: 120px;
   }
   #om_mig_tekst3 {
     margin-left: 20px;
-    margin-right: 150px;
+    margin-right: 120px;
   }
 
   #selfie {
@@ -385,7 +385,7 @@ footer {
     margin-left: 160px;
   }
   #figma_tekst {
-    margin-left: 25px;
+    margin-left: 5px;
     margin-right: 70px;
   }
 
@@ -394,10 +394,10 @@ footer {
     margin-top: 0px;
   }
   #creative_cloud_overskrift {
-    margin-left: 100px;
+    margin-left: 90px;
   }
   #creative_cloud_tekst {
-    margin-left: 25px;
+    margin-left: 5px;
     margin-right: 70px;
   }
 
@@ -409,9 +409,13 @@ footer {
     margin-left: 145px;
   }
   #vsc_tekst {
-    margin-left: 25px;
+    margin-left: 5px;
     margin-right: 70px;
     margin-bottom: 50px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 
   #august2023 {
@@ -433,7 +437,7 @@ footer {
   }
 
   #februar2022 {
-    margin-left: 100px;
+    margin-left: 90px;
   }
   #socialraadgiver_tekst {
     margin-left: 20px;
@@ -450,7 +454,7 @@ footer {
   }
 
   #august2016 {
-    margin-left: 100px;
+    margin-left: 90px;
   }
   #student_tekst {
     margin-left: 20px;
@@ -460,6 +464,6 @@ footer {
 
   #plante_ommig {
     width: 130px;
-    margin-left: 280px;
+    margin-left: 250px;
   }
 }
