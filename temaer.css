@@ -383,9 +383,6 @@ footer {
 
 /********************** mobil - har kodet til en iphone 12/13 + pro ***********************/
 @media screen and (max-width: 600px) {
-  body {
-  }
-
   h1 {
     font-size: 2.4rem;
   }
